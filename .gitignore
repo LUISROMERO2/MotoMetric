@@ -1,0 +1,15 @@
+# Secretos y credenciales (ISO 27001 / reglas del proyecto)
+.env
+.env.*
+!.env.example
+
+# Caché y entornos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Archivos temporales y de sistema
+Thumbs.db
+desktop.ini
